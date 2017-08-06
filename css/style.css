@@ -31,10 +31,18 @@ header{
      float: left;
      margin-right: 10px;
      margin-bottom: 10px;
+     transition-property: opacity;
+     transition-duration: 1s;
+     transition-timing-function: ease;
+     transition-delay: 0;
  }
 
  .description {
      clear:left;
+ }
+
+ .description img:hover{
+     opacity: .5;
  }
 
  .information h1 {
